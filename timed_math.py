@@ -4,7 +4,6 @@ import time
 operators = ["+", "-", "*"]
 min_operand = 3
 max_operand = 12
-total_problems = 10
 
 #generating a random problems
 def generate_problem():
@@ -18,6 +17,8 @@ def generate_problem():
 
 input("Press Enter to Start!")
 print("----------------------")
+total_problems = int(input("How many problems you can answer? "))
+
 start_time = time.time() #initiating start time
 
 #obtaining answers for the total number of problems
