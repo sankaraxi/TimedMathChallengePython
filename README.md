@@ -5,3 +5,4 @@
 - random() and time() modules are used in this code.
 - Medium level code. Easily readable.
 - First big project.
+- Open Source Contributions are welcomed!
